@@ -1,0 +1,348 @@
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO web_html.py:10 ihome.web_html
+INFO _internal.py:87 127.0.0.1 - - [12/Jul/2018 21:48:14] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [12/Jul/2018 21:48:14] "GET /api/v1_0/image_codes/0543e08d-060b-41eb-8299-5260faa1f134 HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/hm_Flask/day_06/ihome/web_html.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87 127.0.0.1 - - [12/Jul/2018 21:52:39] "GET /api_0_1/index HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [12/Jul/2018 21:52:58] "GET /api/v1_0/index HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:15:59] "GET / HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:15:59] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:16:37] "GET /api/v1_0 HTTP/1.1" 404 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:17:05] "GET /api/v1_0 HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:17:06] "GET /api/v1_0 HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:17:16] "GET /register.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:17:16] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:17:16] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:17:16] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:17:16] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:17:16] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:17:16] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:17:16] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:17:16] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:17:16] "GET /static/js/ihome/register.js?v=3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:17:16] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:17:16] "GET /api/v1_0/image_codes/822b6ab0-389f-420d-b308-635ea4774859 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:18:01] "GET / HTTP/1.1" 404 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/hm_Flask/day_06/ihome/web_html.py', reloading
+INFO _internal.py:87  * Restarting with stat
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:20:38] "GET / HTTP/1.1" 404 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/hm_Flask/day_06/ihome/web_html.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:21:03] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:21:03] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:21:03] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:21:03] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:21:03] "GET /static/images/home01.jpg HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:21:03] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:21:03] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:21:03] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:21:03] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:21:03] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:21:03] "GET /static/images/home02.jpg HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:21:03] "GET /static/images/home03.jpg HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:21:08] "GET /login.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:21:09] "GET /static/css/ihome/login.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:21:09] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:21:11] "GET /api/v1_0/image_codes/d9be237c-724f-47af-8f45-7b318e62b889 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:22:17] "GET /api/smscode?mobile=213213123&code=123123&codeId=d9be237c-724f-47af-8f45-7b318e62b889 HTTP/1.1" 404 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/hm_Flask/day_06/ihome/api_0_1/__init__.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/hm_Flask/day_06/ihome/api_0_1/verifcode.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/hm_Flask/day_06/ihome/api_0_1/verifcode.py', reloading
+INFO _internal.py:87  * Restarting with stat
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:31:44] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:31:44] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:31:45] "GET /api/v1_0/image_codes/f0bf50d8-42b0-4fd7-9510-873199e96860 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 19:32:01] "GET /api/smscode?mobile=323423&code=42342&codeId=f0bf50d8-42b0-4fd7-9510-873199e96860 HTTP/1.1" 404 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/hm_Flask/day_06/ihome/api_0_1/verifcode.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/hm_Flask/day_06/ihome/api_0_1/verifcode.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/hm_Flask/day_06/ihome/api_0_1/verifcode.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/hm_Flask/day_06/ihome/api_0_1/verifcode.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/hm_Flask/day_06/ihome/api_0_1/verifcode.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/hm_Flask/day_06/ihome/api_0_1/verifcode.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:26:58] "GET /api/v1_0/image_codes/2f25f395-9dfb-4424-9506-ad1a3bfcc75f HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:28:35] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:28:35] "GET /api/v1_0/image_codes/2d50dd67-3921-44f3-ac52-d780857fb156 HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/hm_Flask/day_06/ihome/api_0_1/verifcode.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:31:58] "GET /api/v1_0/image_codes/d87628f6-edfd-4335-ac6f-0c8b8a96f012 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:33:13] "POST /api/v1_0/smscode?mobile=18307494480&code=ZLT3&codeId=image_code_d87628f6-edfd-4335-ac6f-0c8b8a96f012 HTTP/1.1" 405 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:33:45] "GET /api/v1_0/smscode?mobile=18307494480&code=ZLT3&codeId=image_code_d87628f6-edfd-4335-ac6f-0c8b8a96f012 HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:35:51] "GET /api/v1_0/image_codes/2312312 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:36:10] "GET /api/v1_0/smscode/2312312 HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:36:14] "GET /api/v1_0/smscode/2312312 HTTP/1.1" 404 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:36:29] "GET /api/v1_0/smscode/2312312 HTTP/1.1" 404 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:38:31] "GET /api/v1_0/smscode/123123 HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:38:33] "GET /api/v1_0/smscode/123123 HTTP/1.1" 404 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/hm_Flask/day_06/ihome/api_0_1/verifcode.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:39:26] "GET /api/v1_0/smscode/123123 HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:39:28] "GET /api/v1_0/smscode/123123 HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:39:28] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:39:29] "GET /api/v1_0/smscode/123123 HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:39:29] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:39:29] "GET /api/v1_0/smscode/123123 HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:39:29] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:39:47] "GET /api/v1_0/smscode/123123 HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:41:17] "GET /api/v1_0/smscode/18307494480 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:42:16] "GET /api/v1_0/image_codes/dfbb83c6-de7d-4e2e-af03-06fc40456e3e HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:43:18] "GET /api/v1_0/smscode/18307494480?codeId=image_code_dfbb83c6-de7d-4e2e-af03-06fc40456e3e&code=MO5H HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:43:31] "GET /api/v1_0/smscode/18307494480?codeId=image_code_dfbb83c6-de7d-4e2e-af03-06fc40456e3e&code=MO5H HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:43:32] "GET /api/v1_0/smscode/18307494480?codeId=image_code_dfbb83c6-de7d-4e2e-af03-06fc40456e3e&code=MO5H HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:43:33] "GET /api/v1_0/smscode/18307494480?codeId=image_code_dfbb83c6-de7d-4e2e-af03-06fc40456e3e&code=MO5H HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:43:47] "GET /api/v1_0/image_codes/602bb89a-9a02-4b8e-938c-f14b441e160a HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:44:25] "GET /api/v1_0/smscode/18307494480?code=MO5H&codeId=image_code_dfbb83c6-de7d-4e2e-af03-06fc40456e3e HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:44:55] "GET /api/v1_0/smscode/18307494480?code=pdlu&codeId=image_code_dfbb83c6-de7d-4e2e-af03-06fc40456e3e HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:46:58] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:46:58] "GET /api/v1_0/image_codes/bdb642c1-2fd3-4df0-81a4-da21609e98e1 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:47:30] "GET /api/v1_0/smscode/18307494480?code=tijh&codeId=image_code_bdb642c1-2fd3-4df0-81a4-da21609e98e1 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:47:57] "GET /api/v1_0/smscode/18307494480?code=tijh&codeId=image_code_bdb642c1-2fd3-4df0-81a4-da21609e98e1 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:48:04] "GET /api/v1_0/smscode/18307494480?code=tijh&codeId=image_code_bdb642c1-2fd3-4df0-81a4-da21609e98e1 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:48:45] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:48:45] "GET /api/v1_0/image_codes/8479b052-122e-4ce6-ad20-6d33c4860a84 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:49:09] "GET /api/v1_0/smscode/18307494480?code=hvan&codeId=image_code_8479b052-122e-4ce6-ad20-6d33c4860a84 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:49:30] "GET /api/v1_0/smscode/18307494480?code=hvan&codeId=image_code_8479b052-122e-4ce6-ad20-6d33c4860a84 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:49:32] "GET /api/v1_0/smscode/18307494480?code=hvan&codeId=image_code_8479b052-122e-4ce6-ad20-6d33c4860a84 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:49:32] "GET /api/v1_0/smscode/18307494480?code=hvan&codeId=image_code_8479b052-122e-4ce6-ad20-6d33c4860a84 HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/hm_Flask/day_06/ihome/api_0_1/verifcode.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/hm_Flask/day_06/ihome/api_0_1/verifcode.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:51:19] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:51:19] "GET /api/v1_0/image_codes/28dc7d81-917e-4b95-9b32-774a6d9a5a4b HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:51:41] "GET /api/v1_0/smscode/18307494480?code=bjdx&codeId=image_code_28dc7d81-917e-4b95-9b32-774a6d9a5a4b HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:53:42] "GET /api/v1_0/smscode/18307494480?code=bjdx&codeId=image_code_28dc7d81-917e-4b95-9b32-774a6d9a5a4b HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:54:25] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:54:25] "GET /api/v1_0/image_codes/2d28eaca-f699-496c-bb6a-d4badb3b25be HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:54:47] "GET /api/v1_0/smscode/18307494480?code=32cx&codeId=2d28eaca-f699-496c-bb6a-d4badb3b25be HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/hm_Flask/day_06/ihome/api_0_1/verifcode.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:56:10] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:56:10] "GET /api/v1_0/image_codes/db154319-61cb-4558-b446-1921f02572ff HTTP/1.1" 200 -
+ERROR verifcode.py:67 'BaseQuery' object has no attribute 'frist'
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:56:42] "GET /api/v1_0/smscode/18307494480?code=satf&codeId=db154319-61cb-4558-b446-1921f02572ff HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:56:42] "GET /api/v1_0/smscode/18307494480?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:56:42] "GET /api/v1_0/smscode/18307494480?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:56:42] "GET /api/v1_0/smscode/18307494480?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:56:42] "GET /api/v1_0/smscode/18307494480?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:56:42] "GET /api/v1_0/smscode/18307494480?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/hm_Flask/day_06/ihome/api_0_1/verifcode.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:58:03] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:58:03] "GET /api/v1_0/image_codes/476bf180-0787-40b0-a3e4-43b0fb60d609 HTTP/1.1" 200 -
+ERROR verifcode.py:67 'BaseQuery' object has no attribute 'frist'
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 20:58:28] "GET /api/v1_0/smscode/18307494480?code=kpca&codeId=476bf180-0787-40b0-a3e4-43b0fb60d609 HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/hm_Flask/day_06/ihome/libs/yuntongxun/sms.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:01:25] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:01:25] "GET /api/v1_0/image_codes/b97baf18-3ef2-4d28-a783-994641d8143a HTTP/1.1" 200 -
+ERROR verifcode.py:67 'BaseQuery' object has no attribute 'frist'
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:02:21] "GET /api/v1_0/smscode/18307494480?code=abw3&codeId=b97baf18-3ef2-4d28-a783-994641d8143a HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:02:21] "GET /api/v1_0/smscode/18307494480?code=abw3&codeId=b97baf18-3ef2-4d28-a783-994641d8143a HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:02:21] "GET /api/v1_0/smscode/18307494480?code=abw3&codeId=b97baf18-3ef2-4d28-a783-994641d8143a HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/hm_Flask/day_06/ihome/api_0_1/verifcode.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:03:10] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:03:10] "GET /api/v1_0/image_codes/366990d3-f4b7-41d0-9631-cd314a84c613 HTTP/1.1" 200 -
+ERROR verifcode.py:67 'BaseQuery' object has no attribute 'frist'
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:03:55] "GET /api/v1_0/smscode/18307494480?code=S4CT&codeId=366990d3-f4b7-41d0-9631-cd314a84c613 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:14:33] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:14:33] "GET /api/v1_0/image_codes/4338e13c-e573-41cc-b545-d21b8a00213c HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/hm_Flask/day_06/ihome/api_0_1/verifcode.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/hm_Flask/day_06/ihome/models/models.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/hm_Flask/day_06/ihome/api_0_1/__init__.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:41:30] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:41:31] "GET /api/v1_0/image_codes/6d6f7105-e370-4675-ba6a-7fbdffb7cbd3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:41:34] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:41:35] "GET /api/v1_0/image_codes/ba8698ba-d59d-4837-ad95-fa86f57f9eec HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:42:21] "GET /api/v1_0/image_codes/3848cec7-9063-4568-9a5d-d1de0e1c61a3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:42:22] "GET /api/v1_0/image_codes/b2a47f94-0031-4fbd-b44a-c10d4831a8ad HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:42:45] "GET /api/v1_0/image_codes/b5051c04-9d17-4d8e-bee4-1c8a9da115ab HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:42:46] "GET /api/v1_0/image_codes/4b95c14a-763a-4212-9c95-8be5dd10e724 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:42:47] "GET /api/v1_0/image_codes/7d595de6-da88-4409-b416-c8b31f029f0e HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:42:47] "GET /api/v1_0/image_codes/1afc1698-c9c6-47ce-9d83-9ec7df391d2b HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:43:21] "GET /api/v1_0/image_codes/3fa849dd-ea90-4d14-aaff-60b1f88c2266 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:44:07] "GET /api/v1_0/image_codes/6ce78c7b-3b1e-46a9-bb60-53832d21fd37 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:44:07] "GET /api/v1_0/image_codes/2a6651f8-5197-454f-bb1d-31c456f891c5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:44:07] "GET /api/v1_0/image_codes/9bad3741-3d9f-4d78-8367-19995e774de6 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:44:08] "GET /api/v1_0/image_codes/8c7ebb63-59eb-4ced-9234-22c07e0d089c HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:44:08] "GET /api/v1_0/image_codes/0811333f-e049-4565-a316-9fb1b7d75d74 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:44:08] "GET /api/v1_0/image_codes/a2b4088b-b3da-47fc-a9c8-e6093d1a6067 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:44:31] "GET /api/v1_0/image_codes/f3fc9474-3a8d-40c7-9407-a9ee135b8dbe HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:45:14] "GET /api/v1_0/image_codes/b80dbef8-635d-4600-b2d3-de62908daf8a HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:46:17] "GET /api/v1_0/image_codes/bcd12db7-861c-40cb-ad89-bfe4b30e8dbc HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:47:07] "GET /api/v1_0/image_codes/dcbfb802-0ee4-42bb-bec5-8604c8e6a595 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:47:36] "GET /api/v1_0/image_codes/bf9dbab0-c59e-4aae-a6fa-f20dbce83247 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:47:48] "GET /api/v1_0/image_codes/f88768a6-eed5-4ea0-b257-9802c41e9d17 HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:53:32] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:53:32] "GET /api/v1_0/image_codes/df35eb23-7218-4b9e-adc2-bea1b2c093de HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:53:45] "GET /api/v1_0/image_codes/3a0177b8-6bd4-414b-ad30-425ebd5a7601 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:53:48] "GET /api/v1_0/image_codes/d118eed6-3042-441c-9d48-668a63ab1a1c HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:53:51] "GET /api/smscode?mobile=18307494480&code=vdfc&codeId=d118eed6-3042-441c-9d48-668a63ab1a1c HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:54:04] "GET /register.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:54:04] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:54:04] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:54:04] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:54:05] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:54:05] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:54:05] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:54:05] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:54:05] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:54:05] "GET /static/js/ihome/register.js?v=3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:54:05] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:54:05] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:54:05] "GET /api/v1_0/image_codes/6370a932-011a-46fe-91d4-89713ddde435 HTTP/1.1" 200 -
+ERROR verifcode.py:65 'BaseQuery' object has no attribute 'frist'
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:54:22] "GET /api/v1_0/smscode/18307494480?code=8thj&codeId=6370a932-011a-46fe-91d4-89713ddde435 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:56:55] "GET /api/v1_0/smscode/18307494480?code=8thj&codeId=6370a932-011a-46fe-91d4-89713ddde435 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:56:58] "GET /api/v1_0/smscode/18307494480?code=8thj&codeId=6370a932-011a-46fe-91d4-89713ddde435 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:57:05] "GET /api/v1_0/image_codes/c9efe458-3d24-4913-8e57-1d4726bbe801 HTTP/1.1" 200 -
+ERROR verifcode.py:65 'BaseQuery' object has no attribute 'frist'
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 21:57:11] "GET /api/v1_0/smscode/18307494480?code=uaac&codeId=c9efe458-3d24-4913-8e57-1d4726bbe801 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:11:32] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:11:33] "GET /api/v1_0/image_codes/e00b3667-c4d7-477c-a153-5d1a59937e46 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:11:36] "GET /register.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:11:36] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:11:36] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:11:36] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:11:36] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:11:36] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:11:36] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:11:36] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:11:36] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:11:36] "GET /static/js/ihome/register.js?v=3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:11:36] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:11:37] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:11:37] "GET /api/v1_0/image_codes/33932ffc-b71a-45f0-8087-855eaef30478 HTTP/1.1" 200 -
+ERROR verifcode.py:65 'BaseQuery' object has no attribute 'frist'
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:11:58] "GET /api/v1_0/smscode/18307494480?code=xsxk&codeId=33932ffc-b71a-45f0-8087-855eaef30478 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:12:23] "POST /api/v1_0/users HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:12:29] "POST /api/v1_0/users HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:12:32] "POST /api/v1_0/users HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:13:11] "POST /api/v1_0/users HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:13:15] "POST /api/v1_0/users HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/hm_Flask/day_06/ihome/api_0_1/passport.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 226-254-854
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:14:55] "GET /register.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:14:55] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:14:55] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:14:55] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:14:55] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:14:55] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:14:55] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:14:55] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:14:55] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:14:55] "GET /static/js/ihome/register.js?v=3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:14:56] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:14:56] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:14:56] "GET /api/v1_0/image_codes/d297066c-2568-49cf-bb38-6718d3237acb HTTP/1.1" 200 -
+ERROR verifcode.py:65 'BaseQuery' object has no attribute 'frist'
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:15:09] "GET /api/v1_0/smscode/18307494480?code=stwq&codeId=d297066c-2568-49cf-bb38-6718d3237acb HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:15:28] "POST /api/v1_0/users HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:15:28] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:15:28] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:15:28] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:15:28] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:15:28] "GET /static/images/home01.jpg HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:15:28] "GET /static/images/home02.jpg HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:15:28] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:15:28] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:15:28] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:15:28] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:15:29] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:15:29] "GET /static/images/home03.jpg HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [13/Jul/2018 22:15:30] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
