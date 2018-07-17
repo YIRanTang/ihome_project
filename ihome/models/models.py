@@ -2,7 +2,7 @@
 
 from datetime import datetime
 from ihome import db
-from werkzeug.security import generate_password_hash
+from werkzeug.security import generate_password_hash,check_password_hash
 
 
 class BaseModel(object):
@@ -35,6 +35,11 @@ class User(BaseModel, db.Model):
     def password(self, value):
         self.password_hash = generate_password_hash(value)
 
+    def chek_password(self,value):
+        return check_password_hash(self.password_hash,value)
+
+    def to_dict(self):
+        return {"name":self.name,"mobile":self.mobile,"real_name":self.real_name,"id_card":self.id_card}
 
 class Area(BaseModel, db.Model):
     """城区"""
@@ -44,7 +49,8 @@ class Area(BaseModel, db.Model):
     id = db.Column(db.Integer, primary_key=True)  # 区域编号
     name = db.Column(db.String(32), nullable=False)  # 区域名字
     houses = db.relationship("House", backref="area")  # 区域的房屋
-
+    def to_dict(self):
+        return {"aid":self.id,"aname":self.name}
 
 # 房屋设施表，建立房屋与设施的多对多关系
 house_facility = db.Table(

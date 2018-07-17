@@ -58,7 +58,21 @@ function goToSearchPage(th) {
 }
 
 $(document).ready(function(){
-    $(".top-bar>.register-login").show();
+    $.ajax({
+        url:"/api/v1_0/session",
+        type:"get",
+        dataType:"json",
+        success:function (resp) {
+            if(resp.errno == 0){
+                $(".top-bar>.user-info>.user-name").html(resp.name)
+                $(".top-bar>.user-info").show();
+            }else{
+                $(".top-bar>.register-login").show()
+            }
+        }
+    })
+
+
     var mySwiper = new Swiper ('.swiper-container', {
         loop: true,
         autoplay: 2000,

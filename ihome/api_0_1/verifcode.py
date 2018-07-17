@@ -60,7 +60,8 @@ def send_sms_code(mobile):
 
     # 判断手机号是否被注册
     try:
-        user = User.query.filter_by(mobile=mobile).frist()
+
+        user = User.query.filter_by(mobile=mobile).first()
     except Exception as e:
         current_app.logger.error(e)
     else:

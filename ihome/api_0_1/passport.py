@@ -1,14 +1,20 @@
 # coding:utf-8
-from flask import current_app, request, jsonify,session
+import re
+from flask import current_app, request, jsonify, session
 from ihome.utils.response_code import RET
 from . import api
 from ihome import redis_store, db
 from ihome.models.models import User
+from ihome import constants
+
 
 
 # /api/v1_0/users
+# 注册
 @api.route("/users", methods=["POST"])
 def register():
+    '''注册'''
+
     # 接收参数
     req_dict = request.get_json()
     mobile = req_dict.get("mobile")
@@ -95,7 +101,85 @@ def register():
 
     # 返回
     resp = {
-        "errno":RET.OK,
-        "errmsg":"注册成功"
+        "errno": RET.OK,
+        "errmsg": "注册成功"
     }
     return jsonify(resp)
+
+
+@api.route("/sessions", methods=["POST"])
+def login():
+    '''登陆'''
+
+    # 获取参数
+    req_dict = request.get_json()
+    mobile = req_dict.get("mobile")
+    password = req_dict.get("password")
+    # 校验参数
+    if not all([mobile, password]):
+        return jsonify(errno=RET.PARAMERR, errmsg="参数不完整")
+
+    # 判断手机号格式
+    if not re.match(r"1[34578]\d{9}", mobile):
+        return jsonify(errno=RET.PARAMERR, errmsg="手机号格式不正确")
+    # 业务逻辑
+    user_ip = request.remote_addr
+
+    try:
+        # 获取登陆失败的次数
+        access_count = redis_store.get("access_%s" % user_ip)
+    except Exception as e:
+        current_app.logger.error(e)
+    print access_count
+    if access_count is not None and int(access_count) >= constants.ACCESS_LOGIN_MAX_NUM:
+        return jsonify(errno=RET.REQERR, errmsg="登陆过于频繁")
+
+    try:
+        user = User.query.filter_by(mobile=mobile).first()
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg="查询用户信息异常")
+    # 判断用户名密码
+    if user is None or not user.chek_password(password):
+        try:
+            # 账号密码错误时，自增1
+            redis_store.incr("access_%s" % user_ip)
+            # 设置过期时间
+            redis_store.expire("access_%s" % user_ip, constants.ACCESS_LOGIN_TIME)
+        except Exception as e:
+            current_app.logger.error(e)
+
+        return jsonify(errno=RET.PARAMERR, errmsg="用户名或密码错误")
+    try:
+        # 清除redis错误时登陆次数
+        redis_store.delete("access_%s" % user_ip)
+    except Exception as e:
+        current_app.logger.error(e)
+    # 登陆成功
+    # 记录用户会话消息
+    session["user_id"] = user.id
+    session["user_name"] = user.name
+    session["user_mobile"] = user.mobile
+    # 返回
+    return jsonify(errno=RET.OK, errmsg="登陆成功")
+
+
+# 检查用户是否登陆
+@api.route("/session", methods=["GET"])
+def is_login():
+    '''获取用户信息'''
+    user_name = session.get("user_name")
+    # 判断user_name是否为None,为None则未登录
+    if user_name is None:
+        return jsonify(errno=RET.SESSIONERR, errmsg=False)
+    else:
+        return jsonify(errno=RET.OK, errmsg=True, name=user_name)
+
+
+# 注销/退出登陆
+@api.route("/session", methods=["DELETE"])
+def logout():
+    '''登出'''
+    # 清楚用户会话消息
+    session.clear()
+    return jsonify(errno=RET.OK, errmsg="OK")
