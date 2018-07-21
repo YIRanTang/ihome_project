@@ -18,9 +18,12 @@ class Config(object):
 
 class DevelopConfig(Config):
     DEBUG = True
+    ALIPAY_APPID = "https://openapi.alipaydev.com/gateway.do"
 
 class ProductConfig(Config):
+    ALIPAY_APPID = ""
     pass
+
 
 config_dict = {
     "develop" : DevelopConfig,

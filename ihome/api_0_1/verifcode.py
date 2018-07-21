@@ -3,7 +3,7 @@ import random
 from ihome.utils.captcha.captcha import captcha
 from ihome.utils.response_code import RET
 from ihome import redis_store, constants
-from ihome.libs.yuntongxun.sms import CCP
+from ihome.tasks.sms import task_sms
 from flask import current_app, jsonify, make_response, request
 from . import api
 from ihome.models.models import User
@@ -78,7 +78,7 @@ def send_sms_code(mobile):
     # 把短信验证码存入redis数据库
     sms_code_key = "sms_code_%s" % mobile
     try:
-        redis_store.setex(sms_code_key,constants.SMS_CODE_REDIS_EXPIRES, sms_code)
+        redis_store.setex(sms_code_key, constants.SMS_CODE_REDIS_EXPIRES, sms_code)
     except Exception as e:
         current_app.logger.error(e)
         resp = {
@@ -88,8 +88,8 @@ def send_sms_code(mobile):
         return jsonify(resp)
     # 发送短信验证码
     try:
-        ccp = CCP()
-        result = ccp.sendTemplateSMS(mobile,[sms_code,constants.SMS_CODE_REDIS_EXPIRES/60],1)
+        # selery 异步任务发送短信
+        result_data = task_sms.sendTemplateSMS.delay(mobile, [sms_code, constants.SMS_CODE_REDIS_EXPIRES / 60], 1)
     except Exception as e:
         current_app.logger.error(e)
         resp = {
@@ -97,9 +97,11 @@ def send_sms_code(mobile):
             "errmsg": "发送短信异常"
         }
         return jsonify(resp)
-
+    result = result_data.get()
+    print result_data.id
+    print result
     # 返回
-    if result==1:
+    if result == 1:
         resp = {
             "errno": RET.OK,
             "errmsg": "发送短信成功"

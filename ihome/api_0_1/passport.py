@@ -181,5 +181,9 @@ def is_login():
 def logout():
     '''登出'''
     # 清楚用户会话消息
-    session.clear()
+    session["user_id"] = None
+    session["user_name"] = None
+    session["user_mobile"] = None
     return jsonify(errno=RET.OK, errmsg="OK")
+
+

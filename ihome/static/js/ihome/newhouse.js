@@ -30,6 +30,7 @@ $(document).ready(function () {
             data: JSON.stringify(house_data),
             type: "POST",
             dataType: "json",
+            contentType: "application/json",
             headers: {
                 "X-CSRFToken": getCookie("csrf_token")
             },
@@ -64,7 +65,7 @@ $(document).ready(function () {
             success: function (resp) {
                 if (resp.errno == 0) {
                     // 保存图片成功
-                    $(".house-image-cons").append('<img src="'+ resp.data.house_image_url +'">');
+                    $(".house-image-cons").append('<img src="' + resp.data.house_image_url + '">');
 
                 } else if (resp.errno == 4101) {
                     location.href = "/login.html"

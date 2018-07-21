@@ -21,7 +21,7 @@ def get_user_info():
 
     avatar_url = constants.QINIU_USER_ACCESS_DOMAIN_URL + user.avatar_url
     data = {
-        "avatar_url": user.avatar_url,
+        "avatar_url": avatar_url,
         "user_mobile": user.mobile,
         "user_name": user.name
     }
@@ -44,8 +44,7 @@ def set_user_auth():
     if not all([real_name, id_card]):
         return jsonify(errno=RET.PARAMERR, errmsg="参数错误")
 
-
-    #todo:验证身份证的格式
+    # todo:验证身份证的格式
     # 业务逻辑
     user_id = g.user_id
     try:

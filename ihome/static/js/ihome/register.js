@@ -126,7 +126,7 @@ $(document).ready(function() {
             url:"/api/v1_0/users",
             type:"POST",
             contentType:"application/json",
-
+            data:req_json,
             dataType:"json",
             // 自定义请求头
             headers:{

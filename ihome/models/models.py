@@ -1,8 +1,10 @@
 # -*- coding:utf-8 -*-
 
 from datetime import datetime
+
+from ihome import constants
 from ihome import db
-from werkzeug.security import generate_password_hash,check_password_hash
+from werkzeug.security import generate_password_hash, check_password_hash
 
 
 class BaseModel(object):
@@ -35,11 +37,12 @@ class User(BaseModel, db.Model):
     def password(self, value):
         self.password_hash = generate_password_hash(value)
 
-    def chek_password(self,value):
-        return check_password_hash(self.password_hash,value)
+    def chek_password(self, value):
+        return check_password_hash(self.password_hash, value)
 
     def to_dict(self):
-        return {"name":self.name,"mobile":self.mobile,"real_name":self.real_name,"id_card":self.id_card}
+        return {"name": self.name, "mobile": self.mobile, "real_name": self.real_name, "id_card": self.id_card}
+
 
 class Area(BaseModel, db.Model):
     """城区"""
@@ -49,8 +52,10 @@ class Area(BaseModel, db.Model):
     id = db.Column(db.Integer, primary_key=True)  # 区域编号
     name = db.Column(db.String(32), nullable=False)  # 区域名字
     houses = db.relationship("House", backref="area")  # 区域的房屋
+
     def to_dict(self):
-        return {"aid":self.id,"aname":self.name}
+        return {"aid": self.id, "aname": self.name}
+
 
 # 房屋设施表，建立房屋与设施的多对多关系
 house_facility = db.Table(
@@ -82,8 +87,58 @@ class House(BaseModel, db.Model):
     order_count = db.Column(db.Integer, default=0)  # 预订完成的该房屋的订单数
     index_image_url = db.Column(db.String(256), default="")  # 房屋主图片的路径
     facilities = db.relationship("Facility", secondary=house_facility)  # 房屋的设施
-    images = db.relationship("HouseImage")  # 房屋的图片
+    images = db.relationship("HouseImage")  # 房屋的图# 接单片
     orders = db.relationship("Order", backref="house")  # 房屋的订单
+
+    def to_basic_dict(self):
+        return {
+            "house_id": self.id,
+            "title": self.title,
+            "price": self.price,
+            "area_name": self.area.name,
+            "img_url": constants.QINIU_USER_ACCESS_DOMAIN_URL + self.index_image_url if self.index_image_url else "",
+            "room_count": self.room_count,
+            "order_count": self.order_count,
+            "address": self.address,
+            "user_avatar": constants.QINIU_USER_ACCESS_DOMAIN_URL + self.user.avatar_url if self.user.avatar_url else "",
+            "ctime": self.create_time.strftime("%Y-%m-%d")
+        }
+
+    def to_full_dict(self):
+        """将详细信息转换为字典数据"""
+        house_dict = {
+            "hid": self.id,
+            "user_id": self.user_id,
+            "user_name": self.user.name,
+            "user_avatar": constants.QINIU_USER_ACCESS_DOMAIN_URL + self.user.avatar_url if self.user.avatar_url else "",
+            "title": self.title,
+            "price": self.price,
+            "address": self.address,
+            "room_count": self.room_count,
+            "acreage": self.acreage,
+            "unit": self.unit,
+            "capacity": self.capacity,
+            "beds": self.beds,
+            "deposit": self.deposit,
+            "min_days": self.min_days,
+            "max_days": self.max_days,
+        }
+        # 房屋图片
+        house_dict["image_urls"] = [constants.QINIU_USER_ACCESS_DOMAIN_URL + image.url for image in self.images]
+
+        # 房屋设施
+        house_dict["facilities"] = [facilitie.id for facilitie in self.facilities]
+
+        # 评论数据
+        orders = Order.query.filter(Order.house_id == self.id, Order.comment != None,
+                                    Order.status == "COMPLETE").order_by(
+            Order.create_time.desc()
+        ).limit(constants.HOUSE_DETAIL_COMMENT_DISPLAY_COUNTS)
+        house_dict["comments"] = [
+            {"comment_user": order.user.name, "comment_time": str(order.update_time), "comment_content": order.comment} for
+            order in orders]
+
+        return house_dict
 
 
 class Facility(BaseModel, db.Model):
@@ -113,7 +168,7 @@ class Order(BaseModel, db.Model):
     id = db.Column(db.Integer, primary_key=True)  # 订单编号
     user_id = db.Column(db.Integer, db.ForeignKey("ih_user_profile.id"), nullable=False)  # 下订单的用户编号
     house_id = db.Column(db.Integer, db.ForeignKey("ih_house_info.id"), nullable=False)  # 预订的房间编号
-    begin_date = db.Column(db.DateTime, nullable=False)  # 预订的起始时间
+    begin_date = db.Column(db.DateTime, nullable=False)  #
     end_date = db.Column(db.DateTime, nullable=False)  # 预订的结束时间
     days = db.Column(db.Integer, nullable=False)  # 预订的总天数
     house_price = db.Column(db.Integer, nullable=False)  # 房屋的单价
@@ -130,3 +185,19 @@ class Order(BaseModel, db.Model):
         ),
         default="WAIT_ACCEPT", index=True)
     comment = db.Column(db.Text)  # 订单的评论信息或者拒单原因
+
+    def to_dict(self):
+        """将订单信息转换为字典数据"""
+        order_dict = {
+            "order_id": self.id,
+            "title": self.house.title,
+            "img_url": constants.QINIU_USER_ACCESS_DOMAIN_URL + self.house.index_image_url if self.house.index_image_url else "",
+            "start_date": self.begin_date.strftime("%Y-%m-%d"),
+            "end_date": self.end_date.strftime("%Y-%m-%d"),
+            "ctime": self.create_time.strftime("%Y-%m-%d %H:%M:%S"),
+            "days": self.days,
+            "amount": self.amount,
+            "status": self.status,
+            "comment": self.comment if self.comment else ""
+        }
+        return order_dict
